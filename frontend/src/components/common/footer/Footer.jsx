@@ -1,6 +1,7 @@
-import React from "react"
-import { footer } from "../../data/Data"
-import "./footer.css"
+import React from "react";
+import { footer } from "../../data/Data";
+import "./footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -12,7 +13,7 @@ const Footer = () => {
               <h1>Do You Have Questions?</h1>
               <p>We are available 24/7 to provide the service you need.</p>
             </div>
-            <button className='btn5'>Contact Us Today</button>
+            <button className='btn5'><Link style={{textDecoration: 'none', color: "inherit"}} to="/contact">Contact Us Today</Link></button>
           </div>
         </div>
       </section>
@@ -21,7 +22,7 @@ const Footer = () => {
         <div className='container'>
           <div className='box'>
             <div className='logo'>
-              <img src='../images/logo-light.png' alt='' />
+              <img src='' alt='' />
               <h2>Find the service you need to suit your needs</h2>
               <p>Get special updates we periodically run which can help you save the next time you use our services</p>
 

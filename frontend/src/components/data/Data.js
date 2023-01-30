@@ -24,28 +24,28 @@ export const awards = [
   {
     icon: <i class='fa-solid fa-trophy'></i>,
     num: "32 M	",
-    name: "Blue Burmin Award",
+    name: "Middelburg Chamber of Commerce",
   },
   {
     icon: <i class='fa-solid fa-briefcase'></i>,
     num: "43 M",
-    name: "Mimo X11 Award",
+    name: "South African Chamber of Commerce",
   },
   {
     icon: <i class='fa-solid fa-lightbulb'></i>,
     num: "51 M",
-    name: "Australian UGC Award",
+    name: "Best Construction Works",
   },
   {
     icon: <i class='fa-solid fa-heart'></i>,
     num: "42 M",
-    name: "IITCA Green Award",
+    name: "Exceptional Service",
   },
 ]
 export const location = [
   {
     id: 1,
-    name: "New Orleans, Louisiana",
+    name: "Midrand Villas",
     Villas: "12 Villas",
     Apartments: "10 Apartments",
     Offices: "07 Offices",
@@ -53,7 +53,7 @@ export const location = [
   },
   {
     id: 2,
-    name: "Jerrsy, United State",
+    name: "Kyalami Villas",
     Villas: "12 Villas",
     Apartments: "10 Apartments",
     Offices: "07 Offices",
@@ -61,7 +61,7 @@ export const location = [
   },
   {
     id: 3,
-    name: "Liverpool, London",
+    name: "Sunninghill Apartments",
     Villas: "12 Villas",
     Apartments: " 10 Apartments",
     Offices: "07 Offices",
@@ -69,7 +69,7 @@ export const location = [
   },
   {
     id: 4,
-    name: "NewYork, United States",
+    name: "Kikuyu Estate",
     Villas: "12 Villas",
     Apartments: " 10 Apartments",
     Offices: "07 Offices",
@@ -77,7 +77,7 @@ export const location = [
   },
   {
     id: 5,
-    name: "Montreal, Canada",
+    name: "Hlalamnandi Estate",
     Villas: "12 Villas",
     Apartments: " 10 Apartments",
     Offices: "07 Offices",
@@ -85,7 +85,7 @@ export const location = [
   },
   {
     id: 6,
-    name: "California, USA",
+    name: "Emalahleni Living",
     Villas: "12 Villas",
     Apartments: " 10 Apartments",
     Offices: "07 Offices",
@@ -138,43 +138,43 @@ export const team = [
 ]
 export const price = [
   {
-    plan: "Basic",
-    price: "29",
-    ptext: "per user, per month",
+    plan: "Hourly Rate",
+    price: "100",
+    ptext: "per hour charge",
     list: [
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "99.5% Uptime Guarantee",
+        text: "24/7 Service Guarantee",
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "120GB CDN Bandwidth",
+        text: "24/7 Support",
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "5GB Cloud Storage",
+        text: "Free Fuel",
       },
       { change: "color", icon: <i class='fa-solid fa-x'></i>, text: "Personal Help Support" },
       { change: "color", icon: <i class='fa-solid fa-x'></i>, text: "Enterprise SLA" },
     ],
   },
   {
-    best: "Best Value",
-    plan: "Standard",
-    price: "49",
-    ptext: "per user, per month",
+    best: "Monthly Rate",
+    plan: "Normal Rate",
+    price: "20000",
+    ptext: "Charged Monthly",
     list: [
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "99.5% Uptime Guarantee",
+        text: "24/7 Service Guarantee",
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "150GB CDN Bandwidth",
+        text: "24/7 Support",
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "10GB Cloud Storage",
+        text: "Free Fuel",
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
@@ -189,20 +189,20 @@ export const price = [
   },
   {
     plan: "Platinum",
-    price: "79",
-    ptext: "2 user, per month",
+    price: "80000",
+    ptext: "Price calculated per projection",
     list: [
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "100% Uptime Guarantee",
+        text: "24/7 Service Guarantee",
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "200GB CDN Bandwidth",
+        text: "24/7 Support",
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
-        text: "20GB Cloud Storage",
+        text: "Free Fuel",
       },
       {
         icon: <i class='fa-solid fa-check'></i>,
