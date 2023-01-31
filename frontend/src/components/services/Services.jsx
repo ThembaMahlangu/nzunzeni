@@ -1,5 +1,5 @@
 import React from "react"
-import img from "../images/services.jpg"
+import img from "../images/plumbing.jpg"
 import Back from "../common/Back"
 import PropertySingle from "../PropertySingle"
 

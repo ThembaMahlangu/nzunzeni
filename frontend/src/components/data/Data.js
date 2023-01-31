@@ -12,33 +12,29 @@ export const nav = [
     path: "/services",
   },
   {
-    text: "pricing",
-    path: "/pricing",
-  },
-  {
-    text: "contact",
+    text: "contact us",
     path: "/contact",
   },
 ]
 export const awards = [
   {
     icon: <i class='fa-solid fa-trophy'></i>,
-    num: "32 M	",
+    num: "10",
     name: "Middelburg Chamber of Commerce",
   },
   {
     icon: <i class='fa-solid fa-briefcase'></i>,
-    num: "43 M",
+    num: "32 ",
     name: "South African Chamber of Commerce",
   },
   {
     icon: <i class='fa-solid fa-lightbulb'></i>,
-    num: "51 M",
+    num: "38 ",
     name: "Best Construction Works",
   },
   {
     icon: <i class='fa-solid fa-heart'></i>,
-    num: "42 M",
+    num: "10 ",
     name: "Exceptional Service",
   },
 ]
@@ -218,7 +214,7 @@ export const price = [
 export const footer = [
   {
     title: "Get In Touch",
-    text: [{ list: "Tel: 013 241 7599" }, { list: "Email: info@nzunzeni.co.za, admin@nzunzeni.co.za" }, { list: "Fax: 086 525 1547" }, { list: "WhatsApp: 066 426 1624" },{list: "Address: Portion 148, Middelburg Farmland, Dr Mandela Drive, Mhluzi, 1053"}],
+    text: [{ list: "Tel: 013 241 7599" }, { list: "Email: info@nzunzeni.co.za, admin@nzunzeni.co.za" }, { list: "Fax: 086 525 1547" }, { list: "WhatsApp: 071 135 6278" },{list: "Address: Portion 148, Middelburg Farmland, Dr Mandela Drive, Mhluzi, 1053"}],
   },
   {
     title: "Terms of Service",

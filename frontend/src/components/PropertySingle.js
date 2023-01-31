@@ -3,9 +3,10 @@ import { Link } from "react-router-dom";
 import PropertySingleData from "./PropertySingleData";
 import Service1 from "../components/images/civilworks.jpg";
 import Service2 from "../components/images/electrician.jpg";
-import Service3 from "../components/images/trans.jpg";
+import Service3 from "../components/images/transport.jpg";
 import Service4 from "../components/images/nzunzeni.jpg";
 import Service5 from "../components/images/cleaning.png";
+import Service6 from "../components/images/plumbing.jpg";
 
 function PropertySingle() {
   return (
@@ -54,6 +55,16 @@ function PropertySingle() {
           <h4>Building Construction</h4>
           <h3>Available 24/7</h3>
           <p>We Offer House Building(From Foundation to Roofing), Demolition of Building and Erection of Structure.</p>
+          <button><Link style={{textDecoration: 'none', color: "inherit"}} to="/contact">Contact Us</Link></button>
+        </div>
+
+        <div className="p-card">
+          <div className="p-image">
+            <img src={Service6} alt="image"/>
+          </div>
+          <h4>Plumbing</h4>
+          <h3>Available 24/7</h3>
+          <p>We offer Plumbing services to small and big scae companies on a specified contract and we also offer plumbing to small households that also require our service.</p>
           <button><Link style={{textDecoration: 'none', color: "inherit"}} to="/contact">Contact Us</Link></button>
         </div>
 
