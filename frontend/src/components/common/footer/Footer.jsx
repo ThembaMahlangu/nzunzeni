@@ -2,6 +2,7 @@ import React from "react";
 import { footer } from "../../data/Data";
 import "./footer.css";
 import { Link } from "react-router-dom";
+import LogoYam from "../../images/nzunzenilogo.png";
 
 const Footer = () => {
   return (
@@ -22,7 +23,7 @@ const Footer = () => {
         <div className='container'>
           <div className='box'>
             <div className='logo'>
-              <img src='' alt='' />
+              <img src={LogoYam} alt='' />
               <h2>Find the service you need to suit your needs</h2>
               <p>Get special updates we periodically run which can help you save the next time you use our services</p>
 
