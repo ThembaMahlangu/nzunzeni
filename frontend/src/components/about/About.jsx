@@ -5,7 +5,7 @@ import img from "../images/civilworks.jpg"
 import "./about.css";
 import Service1 from "../images/civilworks.jpg";
 import Service2 from "../images/electrician.jpg";
-import Service3 from "../images/trans.jpg";
+import Service3 from "../images/transport.jpg";
 import Service4 from "../images/nzunzeni.jpg";
 import Service5 from "../images/cleaning.png";
 
@@ -46,7 +46,7 @@ const About = () => {
             <p>Nzunzeni Trading strives to live by its core values of people, excellence, transfomation, customer focus, innovation, integrity and perfomance.</p>
           </div>
           <div className='right row'>
-            <img src={Service5} alt='' />
+            <img src={Service4} alt='' />
           </div>
           </div>
 
