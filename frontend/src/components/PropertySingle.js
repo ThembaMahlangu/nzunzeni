@@ -5,7 +5,7 @@ import Service1 from "../components/images/civilworks.jpg";
 import Service2 from "../components/images/electrician.jpg";
 import Service3 from "../components/images/transport.jpg";
 import Service4 from "../components/images/nzunzeni.jpg";
-import Service5 from "../components/images/cleaning.png";
+import Service5 from "../components/images/cleaning.jpg";
 import Service6 from "../components/images/plumbing.jpg";
 
 function PropertySingle() {
