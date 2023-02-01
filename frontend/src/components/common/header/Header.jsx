@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import "./header.css"
 import { nav } from "../../data/Data"
 import { Link } from "react-router-dom"
-import LogoYam from "../../images/nzunzenilogo.png";
+import LogoYam from "../../images/newnzunzeni.png";
 
 const Header = () => {
   const [navList, setNavList] = useState(false)
