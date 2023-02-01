@@ -2,7 +2,7 @@ import React from "react";
 import { footer } from "../../data/Data";
 import "./footer.css";
 import { Link } from "react-router-dom";
-import LogoYam from "../../images/nzunzenilogo.png";
+import LogoYam from "../../images/newnzunzeni.png";
 
 const Footer = () => {
   return (
