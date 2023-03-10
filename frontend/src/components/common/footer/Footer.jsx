@@ -47,7 +47,7 @@ const Footer = () => {
         </div>
       </footer>
       <div className='legal'>
-        <span>© 2023 Nzunzeni Trading. Designed By EduLinkage.</span>
+        <span>© 2023 Nzunzeni Trading. Powered By AsyncFam.</span>
       </div>
     </>
   )
